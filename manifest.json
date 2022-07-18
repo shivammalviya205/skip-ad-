@@ -1,0 +1,15 @@
+{
+    "name":"skipp-ad",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "icons":{
+        "128":"logol.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://*.youtube.com/*"],
+          "css": ["youtube.css"],
+          "js": ["youtube.js"]
+        }
+      ]
+}
